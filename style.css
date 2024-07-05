@@ -1,0 +1,105 @@
+html{
+    box-sizing:border-box;
+    font-family:'karla';
+    font-size:16px;
+}
+*,*:before,*:after{
+    box-sizing:inherit;
+}
+body{
+    padding:20px;
+}
+h2,h4,p{
+    margin:0;
+  }
+  #card{
+    width:600px;
+    height:400px;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.35);
+    border-radius:8px;
+    overflow:hidden;
+  }
+  
+  #top-section{
+    padding:25px;
+    width:100%;
+    height:45%;
+    background-color:#ffffff;
+  }
+  #top-section h2{
+    color:#2bb3b2;
+    margin-bottom:20px;
+  }
+  #top-section h4{
+    color:#c0df34;
+    margin-bottom:15px;
+  }
+  #top-section p{
+    color:#98a6bd
+  }
+  
+  
+  #bottom-section{
+    width:100%;
+    height:55%;
+    color:white;
+  }
+  #bottom-left-section{
+    padding:25px;
+    display:inline-block;
+    width:50%;
+    height:100%;
+    vertical-align:top;
+    background-color:#2bb3b2;
+  }
+  #bottom-left-section h4,p{
+    margin-bottom:15px;
+  }
+  #bottom-right-section{
+    padding:25px;
+    display:inline-block;
+    width:50%;
+    height:100%;
+    Vertical-align:top;
+    background-color:#49bcbb;
+  }
+  #bottom-right-section ul{
+    padding-left:0;
+    color:rgba(255,255,255,0.9);
+    list-style:None;
+  }
+  
+  #button{
+    color:white;
+    
+  }
+  #price{
+    font-weight:700;
+    font-size:1.4rem;
+  }
+  #price,#price-frequency{
+    display:inline-block
+  }
+  #price-frequency{
+    position:relative;
+    top:3px;
+    opacity:0.8;
+    margin-left:5px;
+    font-size:0.8rem;
+    
+  }
+  #price-container{
+    margin-bottom:10px;
+  }
+  button{
+    width:100%;
+    background-color:#c0df34;
+    border:None;
+    padding:15px;
+    border-radius:5px;
+  }
+  button:hover{
+    background-color:#657619;
+    transform:scale(1.02);
+  }
+  
